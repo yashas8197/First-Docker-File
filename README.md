@@ -24,6 +24,10 @@ To build the Docker image, ensure you have Docker installed and follow these ste
 
 Once the Docker image is built, you can run a container based on that image using the following command:
 
+```
+docker run --rm my-node-app
+```
+
 The container will execute the `app.js` file, and you will see the output in your terminal or command prompt.
 
 ## Requirements
